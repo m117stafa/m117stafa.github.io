@@ -32,8 +32,12 @@ html::-webkit-scrollbar {
 html {
     -ms-overflow-style: none;  /* IE and Edge */
     scrollbar-width: none;  /* Firefox */
+    overflow-x: hidden;
   }
 
+
+
+  
 .part1{
     
     background: url(/images/bg-pattern-intro.svg) no-repeat center,linear-gradient(90deg, var(--very-light-red) 29%, var(--light-red) 65%);
@@ -41,6 +45,7 @@ html {
     background-position: 20% 51%;
     border-radius: 0 0 0 4em;
     height: 90vh;
+    width: 100vw;
 }
 
 .marr{
@@ -87,6 +92,14 @@ html {
     text-decoration: underline;
 }
 
+.nav-link:focus{
+    color: var(--white);
+}
+
+.dropdown-item:focus{
+    background-color: inherit;
+}
+
 
 
 .dropdown:hover>.dropdown-menu {
@@ -113,12 +126,26 @@ html {
  }
 
 .part2{
-    padding: 4em 0;
+    padding-bottom: 20em; 
+    margin-top: 13em;
     
 }
-
 .imagepos{
     position: absolute;
     left: 52%;
-    top: 100%;
+
+}
+
+.part3{
+    background-color: var(--very-dark-desaturated-blue);
+    border-radius: 0 7em 0 7em;
+    height: 70vh;
+    position: relative;
+
+}
+
+.imagepos3{
+    
+    
+
 }
