@@ -127,7 +127,9 @@ html {
 
 .part2{
     padding-bottom: 20em; 
-    margin-top: 13em;
+    margin-top: 5em;
+    padding-top: 6em;
+    height: 100%;
     
 }
 .imagepos{
@@ -144,8 +146,3 @@ html {
 
 }
 
-.imagepos3{
-    
-    
-
-}
