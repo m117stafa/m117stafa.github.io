@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&family=Ubuntu+Mono:wght@700&display=swap');
+
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;outline:0;vertical-align:baseline;background:transparent}
+body{line-height:1}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}
+nav ul{list-style:none}
+blockquote,q{quotes:none}
+blockquote:before,blockquote:after,q:before,q:after{content:none}
+a{margin:0;padding:0;vertical-align:baseline;background:transparent;text-decoration:none;color: inherit;}
+mark{background-color:#ff9;color:#000;font-style:italic;font-weight:bold}
+del{text-decoration:line-through}
+abbr[title],dfn[title]{border-bottom:1px dotted;cursor:help}
+table{border-collapse:collapse;border-spacing:0}
+hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padding:0}
+input,select{vertical-align:middle}
+li{list-style:none}
+
+
+html,body{ 
+	width:100%;
+	height:100%;
+	background:#111;
+  overflow: hidden;
+}
+
+html{
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+canvas{
+  display:block;
+  
+}
+
+
+.js-count-particles{
+  font-size: 1.1em;
+}
+
+#particles-js{
+  width: 100%;
+  height: 100%;
+  background-color: #000000;
+  background-image: url('');
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat; 
+}
+
+.cee{
+  position: relative;
+}
+
+.cont{
+  color: white;
+  font-size: calc(0.75em + 1vmin);
+  position: absolute; 
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  padding: 0 30px;
+  width: fit-content;
+  height: max-content;
+  text-align: center;
+}
+.cont h1{
+  font-family: 'Ubuntu Mono', monospace;
+
+}
+
+.cont h3{
+  padding: .51em 0;
+  font-family: monospace;
+}
+
+.icons i{
+  margin: 0 1em;
+}
+
+button{
+  background: none;
+  text-decoration: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  font-size: inherit;
+  cursor: pointer;
+}
+
+.icons i:hover{
+  font-size: calc(0.79em + 1vmin);
+  transition: all ease-in-out 0.3s ;
+  
+  color: rgba(255, 255, 255, 0.63);
+}
