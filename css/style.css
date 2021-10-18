@@ -89,7 +89,7 @@ button{
 
 .icons i:hover{
   font-size: calc(0.79em + 1vmin);
-  transition: all ease-in-out 0.3s ;
+  transition: all ease-in-out 0.1s ;
   
   color: rgba(255, 255, 255, 0.63);
 }
